@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "ES2019",
+      "module": "commonjs",
+  
+      /* Strict Type-Checking Options */
+      "strict": true,
+  
+      /* Additional Checks */
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "noImplicitReturns": false,
+      "noFallthroughCasesInSwitch": false,
+  
+      /* Module Resolution Options */
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+  
+      /* Experimental Options */
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+  
+      /* Advanced Options */
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "jsx": "react",
+      "noImplicitAny": false,
+      "baseUrl": ".",
+      "paths": {
+        "&/components/*": [
+          "src/components/*"
+        ]
+     }
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx",
+      "src/**/*.vue", 
+      "src/index.js"
+    ],
+    "exclude": [
+      "*/node_modules/**",
+      "*/src/**/*.module.less",
+      "*/src/**/*.module.scss",
+      "*/src/**/*.module.css"
+    ]
+  }

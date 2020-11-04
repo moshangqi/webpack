@@ -1,0 +1,7 @@
+# 配置eslint忽略的文件
+/config
+.eslintrc.js
+/node_modules
+postcss.config.js
+*.json
+
